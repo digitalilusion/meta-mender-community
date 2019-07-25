@@ -21,3 +21,12 @@ MENDER_UBOOT_STORAGE_DEVICE_nanopi-m1-plus = "0"
 # NanoPi, uncomment this for eMMC. Remember to remove above!
 #MENDER_STORAGE_DEVICE_nanopi-m1-plus = "/dev/mmcblk3"
 #MENDER_UBOOT_STORAGE_DEVICE_nanopi-m1-plus = "1"
+
+
+# NanoPi, mmc index differs in U-boot and Linux. This configuration is for uSD.
+MENDER_STORAGE_DEVICE_nanopi-r1 = "/dev/mmcblk1"
+MENDER_UBOOT_STORAGE_DEVICE_nanopi-r1 = "0"
+
+# NanoPi, uncomment this for eMMC. Remember to remove above!
+#MENDER_STORAGE_DEVICE_nanopi-r1 = "/dev/mmcblk3"
+#MENDER_UBOOT_STORAGE_DEVICE_nanopi-r1 = "1"
